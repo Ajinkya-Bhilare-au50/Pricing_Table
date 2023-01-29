@@ -1,0 +1,28 @@
+.btn {
+  background-color: #6dae4c;
+  color: aliceblue;
+  width: 200px;
+  border: none;
+}
+.btn:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.shift {
+  background-color: #6dae4c;
+  color: white;
+}
+.hovered {
+  border-color: #6dae4c !important;
+}
+.shift {
+  position: absolute;
+  padding: 3px 15px;
+  border-radius: 5px;
+  top: -3.5%;
+  left: 130px;
+}
+.hovered:hover {
+  box-shadow: rgba(39, 33, 33, 0.35) 0px 5px 15px !important;
+  cursor: pointer;
+}
